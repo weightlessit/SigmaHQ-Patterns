@@ -1,0 +1,23 @@
+# .github/workflows/update-sigma-patterns.yml
+name: Update Sigma Patterns
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # every Monday at 6am
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Clone SigmaHQ
+        run: git clone --depth 1 https://github.com/SigmaHQ/sigma.git
+      - name: Extract patterns
+        run: python extract_sigma_patterns.py
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add sigma_patterns.json
+          git diff --cached --quiet || git commit -m "Update Sigma patterns $(date +%Y-%m-%d)"
+          git push
