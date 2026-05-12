@@ -13,7 +13,7 @@ jobs:
       - name: Clone SigmaHQ
         run: git clone --depth 1 https://github.com/SigmaHQ/sigma.git
       - name: Extract patterns
-        run: python extract_sigma_patterns.py
+        run: python extract-sigma-patterns.py
       - name: Commit and push
         run: |
           git config user.name "github-actions"
