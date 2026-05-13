@@ -1,0 +1,20 @@
+[
+    {"Pattern": "encodedcommand", "Explanation": "Encoded PowerShell command — hides the actual script being executed"},
+    {"Pattern": "Invoke-Expression", "Explanation": "Dynamic code execution (iex) — commonly used in malware loaders"},
+    {"Pattern": "DownloadString", "Explanation": "Downloads and executes remote content directly into memory"},
+    {"Pattern": "DownloadFile", "Explanation": "Downloads a file from a remote server"},
+    {"Pattern": "FromBase64", "Explanation": "Decodes Base64 content — often used to hide payloads"},
+    {"Pattern": "Net\\.WebClient", "Explanation": "Creates a web client for downloading remote content"},
+    {"Pattern": "hidden", "Explanation": "Runs with a hidden window — user cannot see the process"},
+    {"Pattern": "bypass", "Explanation": "Attempts to bypass execution policy restrictions"},
+    {"Pattern": "headless", "Explanation": "Runs console host with no visible window"},
+    {"Pattern": "certutil.*decode", "Explanation": "Uses certutil to decode files — LOLBin payload delivery technique"},
+    {"Pattern": "certutil.*urlcache", "Explanation": "Uses certutil to download files — LOLBin download bypass"},
+    {"Pattern": "bitsadmin.*transfer", "Explanation": "Uses BITS to transfer files — stealthy download method"},
+    {"Pattern": "mshta", "Explanation": "Microsoft HTML Application Host — commonly abused for code execution"},
+    {"Pattern": "regsvr32.*/s.*/i", "Explanation": "Regsvr32 silent/install — proxy execution of DLLs"},
+    {"Pattern": "rundll32.*javascript", "Explanation": "Rundll32 executing JavaScript — code execution via trusted binary"},
+    {"Pattern": "Start-BitsTransfer", "Explanation": "PowerShell BITS transfer — stealthy file download"},
+    {"Pattern": "wscript.*\\.js", "Explanation": "Windows Script Host running JavaScript"},
+    {"Pattern": "cscript.*\\.js", "Explanation": "Console Script Host running JavaScript"}
+]
