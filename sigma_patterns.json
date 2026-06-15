@@ -762,6 +762,7 @@
     "(?:[Pp]rogram[Dd]ata|%(?:[Ll]ocal)?[Aa]pp[Dd]ata%|\\\\[Aa]pp[Dd]ata\\\\(?:[Ll]ocal(?:[Ll]ow)?|[Rr]oaming))\\\\[^\\\\]{1,256}$",
     "(?i)(?:set).*&&\\s?set.*(?:environment|invoke|\\$\\{?input).*&&.*",
     "(?i)\\.exe[\\\"\\']?\\s+[^\\\"]{0,64}werfaultsecure\\.exe[\\\"\\']?\\s+\\d{2,10} # wsass.exe \"path to werfaultsecure\" lsass_pid",
+    "(?i)\\s(-u|--user)\\s*:",
     "(?i)echo.*clip.*&&.*(?:Clipboard|i`?n`?v`?o`?k`?e`?)",
     "(Get-PSReadLineOption).HistorySavePath",
     "(New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1",
@@ -788,6 +789,7 @@
     "--manifest",
     "--meshServiceName",
     "--ntds-file",
+    "--ntlm",
     "--output",
     "--pid:",
     "--post-data",
@@ -3660,7 +3662,7 @@
     "session >",
     "sessionstore.jsonlz4",
     "set /p=",
-    "set-log '            # modifies config of specified log. could be uset to set it to a tiny size",
+    "set-log '            # modifies config of specified log. could be used to set it to a tiny size",
     "setZeroData'          # file setZeroData  ==> empties a file with zeroes",
     "sethc.exe",
     "sftp:",
@@ -5189,6 +5191,7 @@
     "7z*.exe",
     "7z.exe",
     "7za.exe",
+    "7zr.exe",
     ":\\$Extend\\$Deleted\\",
     ":\\$WINDOWS.~BT\\Sources\\SetupHost.exe' # During Windows updates/upgrades",
     ":\\Config.Msi\\",
@@ -5594,6 +5597,7 @@
     "\\7z.exe",
     "\\7zFM.exe",
     "\\7za.exe",
+    "\\7zr.exe",
     "\\ADExplorer.exe",
     "\\ADExplorer64.exe",
     "\\ADExplorer64a.exe",
@@ -7358,11 +7362,11 @@
     "}\\python-"
   ],
   "_metadata": {
-    "generated_at": "2026-06-08 10:19:01 UTC",
-    "rules_processed": 1439,
+    "generated_at": "2026-06-15 11:47:41 UTC",
+    "rules_processed": 1440,
     "rules_errored": 0,
-    "command_pattern_count": 5081,
-    "image_pattern_count": 1450,
+    "command_pattern_count": 5083,
+    "image_pattern_count": 1452,
     "registry_pattern_count": 821
   }
 }
