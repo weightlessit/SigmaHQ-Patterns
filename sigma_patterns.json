@@ -5544,6 +5544,7 @@
     "C:\\Windows\\System32\\wpbbin.exe",
     "C:\\Windows\\System32\\wsl.exe",
     "C:\\Windows\\SystemTemp\\",
+    "C:\\Windows\\TEMP",
     "C:\\Windows\\Temp\\",
     "C:\\Windows\\WinSxS\\",
     "C:\\Windows\\explorer.exe",
@@ -7406,11 +7407,11 @@
     "}\\python-"
   ],
   "_metadata": {
-    "generated_at": "2026-08-10 07:12:27 UTC",
+    "generated_at": "2026-08-17 06:34:58 UTC",
     "rules_processed": 1445,
     "rules_errored": 0,
     "command_pattern_count": 5122,
-    "image_pattern_count": 1457,
+    "image_pattern_count": 1458,
     "registry_pattern_count": 821
   }
 }
