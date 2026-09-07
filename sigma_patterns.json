@@ -5509,7 +5509,7 @@
     "C:\\Windows\\SysWOW64\\config\\systemprofile\\Citrix\\UpdaterBinaries\\",
     "C:\\Windows\\SysWOW64\\explorer.exe",
     "C:\\Windows\\SysWOW64\\msiexec.exe",
-    "C:\\Windows\\SysWOW64\\regsvr32.exe ",
+    "C:\\Windows\\SysWOW64\\regsvr32.exe",
     "C:\\Windows\\SysWOW64\\regsvr32.exe' # e.g. default Evernote installation",
     "C:\\Windows\\SysWOW64\\schtasks.exe",
     "C:\\Windows\\SysWOW64\\setup16.exe",
@@ -6972,12 +6972,12 @@
     "\\Outlook\\Addins\\GoogleAppsSync.Connect\\' # Google Apps Sync for Microsoft Outlook",
     "\\Outlook\\Addins\\Microsoft.VbaAddinForOutlook.1\\",
     "\\Outlook\\Addins\\OcOffice.OcForms\\",
+    "\\Outlook\\Addins\\OneNote.OutlookAddin",
     "\\Outlook\\Addins\\OscAddin.Connect\\",
     "\\Outlook\\Addins\\OutlookChangeNotifier.Connect\\",
     "\\Outlook\\Addins\\UCAddin.LyncAddin.1",
     "\\Outlook\\Addins\\UCAddin.UCAddin.1",
     "\\Outlook\\Addins\\UmOutlookAddin.FormRegionAddin\\",
-    "\\Outlook\\Addins\\\\OneNote.OutlookAddin",
     "\\Outlook\\LoadMacroProviderOnBoot",
     "\\Outlook\\Security\\EnableUnsafeClientMailRules",
     "\\Outlook\\Security\\Level",
@@ -7124,6 +7124,7 @@
     "\\Services\\LanmanServer\\Parameters\\",
     "\\Services\\LanmanServer\\Parameters\\MaxMpxCt",
     "\\Services\\NTDS\\Parameters\\ServiceDll",
+    "\\Services\\PrintNotify\\Parameters\\ServiceDll",
     "\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\",
     "\\Services\\W32Time\\TimeProviders",
     "\\Services\\WinDefend\\Start",
@@ -7413,11 +7414,11 @@
     "}\\python-"
   ],
   "_metadata": {
-    "generated_at": "2026-08-31 12:13:07 UTC",
+    "generated_at": "2026-09-07 11:05:43 UTC",
     "rules_processed": 1447,
     "rules_errored": 0,
     "command_pattern_count": 5128,
     "image_pattern_count": 1458,
-    "registry_pattern_count": 821
+    "registry_pattern_count": 822
   }
 }
