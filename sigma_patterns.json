@@ -6796,6 +6796,7 @@
     "\\vmmap.exe",
     "\\vmmap64.exe",
     "\\vmmap64a.exe",
+    "\\vmnat.exe",
     "\\vmtoolsd.exe",
     "\\vsimmersiveactivatehelper*.exe",
     "\\vsjitdebugger.exe",
@@ -6917,7 +6918,6 @@
     "python3.exe",
     "query",
     "rasdial.exe",
-    "reg.exe",
     "registry",
     "rundll32.exe ",
     "sc query",
@@ -6974,6 +6974,7 @@
     "AddinTakeNotesService\\FriendlyName",
     "C:/Users/Public/",
     "Classes\\.",
+    "Classes\\.exe\\(Default)",
     "Classes\\ActivatableClasses\\Package\\Microsoft.",
     "Control Panel\\Desktop",
     "CurrentVersion\\Policies\\ActiveDesktop",
@@ -7337,6 +7338,9 @@
     "\\MonitorProcess",
     "\\MpEngine\\MpEnablePus",
     "\\MyComputer",
+    "\\MyComputer\\BackupPath\\(Default)",
+    "\\MyComputer\\DefragPath\\(Default)",
+    "\\MyComputer\\cleanuppath\\(Default)",
     "\\NameSpace_Catalog5\\Catalog_Entries",
     "\\NetworkProvider\\Order",
     "\\NetworkProvider\\Order\\ProviderOrder",
@@ -7785,6 +7789,7 @@
     "oofgbpoabipfcfjapgnbbjjaenockbdp # SetupVPN",
     "ookhnhpkphagefgdiemllfajmkdkcaim # iNinja VPN",
     "padekgcemlokbadohgkifijomclgjgif # Proxy SwitchyOmega",
+    "path\\(Default)",
     "pcienlhnoficegnepejpfiklggkioccm # Cloud VPN",
     "pgfpignfckbloagkfnamnolkeaecfgfh # Free Proxy VPN",
     "plpmggfglncceinmilojdkiijhmajkjh # Red Panda VPN",
@@ -7798,11 +7803,11 @@
     "}\\python-"
   ],
   "_metadata": {
-    "generated_at": "2026-11-16 14:20:45 UTC",
+    "generated_at": "2026-11-23 16:53:55 UTC",
     "rules_processed": 1458,
     "rules_errored": 0,
     "command_pattern_count": 5487,
     "image_pattern_count": 1474,
-    "registry_pattern_count": 831
+    "registry_pattern_count": 836
   }
 }
